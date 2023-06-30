@@ -13,11 +13,13 @@
 
         <div id="container">
             
-            <h1>
+            <h1 >
                 {{ say }}
             </h1>
-
-            <img v-bind:src="marvel">
+            <div v-bind:class="width">
+                <img v-bind:src="marvel" v-bind:class="img">
+            </div>
+           
         </div>
 
 

@@ -5,7 +5,9 @@ const app = createApp({
     data() {
         return {
             say: 'Hello Vue!',
-            marvel: 'img/marvel.jpg'
+            marvel: 'img/marvel.jpg',
+            width: 'measures',
+            img: 'photo'
         }
     }
 })
