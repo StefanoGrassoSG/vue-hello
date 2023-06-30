@@ -1,8 +1,11 @@
 
+const { createApp } = Vue;
+
 const app = createApp({
     data() {
         return {
-            count: 0;
+            say: 'Hello Vue!',
+            marvel: 'img/marvel.jpg'
         }
     }
 })
